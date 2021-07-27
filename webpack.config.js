@@ -9,7 +9,7 @@ module.exports = {
   //   .sync("build/static/?(js|css)/*.?(js|css)")
   //   .map((f) => path.resolve(__dirname, f)),
   output: {
-    path: path.resolve(__dirname, 'lib'),
+    path: path.resolve(__dirname, 'build'),
     filename: "chatWidget.min.js",
     // libraryTarget: "commonjs2",
     library: "MyWidget",
